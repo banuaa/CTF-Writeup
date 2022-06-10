@@ -1,0 +1,2 @@
+If you followed the directories to here, you have found the flag!
+Use the directory names (without slashes) as part of the flag, then wrap it in the flag format "flag{}".
