@@ -1,2 +1,2 @@
 # CTF-Writeup
-**CTF Writeup solved by me**
+CTF Writeup solved by me
