@@ -13,8 +13,13 @@ Kemudian pada file baby-baby-rsa.py flag di enkripsi seperti pada umumnya RSA
 ## Solusi
 Parts didapatkan dengan cara membagi masing-masing 3 bagian nilai prime dari `p dan q` kemudian dilakukan shuffle menggunakan library random.shuffle.
 Karena parts hanya dibagi masing-masing menjadi 3 bagian, kita bisa melakukan bruteforce dengan cara mengambil 3 bagian untuk mendapatkan nilai prime dari p dan 3 bagian lagi untuk mendapatkan nilai prime dari q, kemudian dilakukan random.shuffle sampai mendapatkan nilai yang cocok untuk melakukan decrypt flag dengan menambahkan kondisi if pada while loop bruteforce tersebut.
+
+Prime p
 > p = int("".join(parts[0:3]),2)
+
+Prime q
 > q = int("".join(parts[3:6]),2)
 
 Lakukan decrypt RSA seperti biasanya dan flag didapatkan
-> flag{flbg{flcg{fldg{fleg}}}}
+
+Flag = flag{flbg{flcg{fldg{fleg}}}}
