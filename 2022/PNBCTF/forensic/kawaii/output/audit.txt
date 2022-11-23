@@ -1,0 +1,25 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Sep 17 20:11:15 2022
+Invocation: foremost nino.jpg 
+Output directory: /home/banua/Desktop/PNBCTF/forensic/kawaii/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: nino.jpg
+Start: Sat Sep 17 20:11:15 2022
+Length: 220 KB (226023 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	     220 KB 	          0 	 
+1:	00000441.zip 	      231 B 	     225792 	 
+Finish: Sat Sep 17 20:11:15 2022
+
+2 FILES EXTRACTED
+	
+jpg:= 1
+zip:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat Sep 17 20:11:15 2022

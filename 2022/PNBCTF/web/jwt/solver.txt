@@ -1,0 +1,3 @@
+hashcat -m 16500 -a 0 jwt.txt /usr/share/wordlists/rockyou.txt
+
+change user to admin
