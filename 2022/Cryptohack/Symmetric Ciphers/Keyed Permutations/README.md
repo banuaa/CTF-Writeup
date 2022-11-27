@@ -1,0 +1,2 @@
+## Solver
+crypto{bijection}
