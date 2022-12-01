@@ -1,0 +1,4 @@
+# Dirsearch started Fri Oct 14 23:18:50 2022 as: dirsearch.py -u http://photobomb.htb/ -e* -r -o /home/banua/Desktop/HTB/Photobomb/dirsearch.txt
+
+200    11KB  http://photobomb.htb:80/favicon.ico
+401   590B   http://photobomb.htb:80/printer

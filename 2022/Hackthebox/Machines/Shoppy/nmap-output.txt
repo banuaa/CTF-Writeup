@@ -1,0 +1,13 @@
+# Nmap 7.80 scan initiated Thu Sep 29 14:48:07 2022 as: nmap -sV -sC -A -oN nmap-output.txt 10.10.11.180
+Nmap scan report for shoppy.htb (10.10.11.180)
+Host is up (0.11s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.4p1 Debian 5+deb11u1 (protocol 2.0)
+80/tcp open  http    nginx 1.23.1
+|_http-server-header: nginx/1.23.1
+|_http-title:             Shoppy Wait Page        
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Sep 29 14:48:45 2022 -- 1 IP address (1 host up) scanned in 37.84 seconds
