@@ -1,0 +1,138 @@
+{
+    "data": {
+        "ADMIN": [
+            {
+                "category": "ADMIN",
+                "description": "Code of Conduct for all vikeCTF participants\r\n\r\nBy participating in this CTF event, you agree to follow this code of conduct. The organizers reserve the right to take any necessary action, including disqualifying participants or teams, if any of these rules are violated.\r\n\r\n1. Always act with responsibility and integrity.\r\n2. No cheating, sharing solutions or flags, hoarding flags or seeking external help from others not on your team.\r\n3. Be respectful of other participants, organizers and others. No harrassment or bullying of any kind will be tolerated.\r\n4. Do not disrupt the CTF environment. This includes not attempting to mess with infrastrucutre and spamming or causing problems in the discord.\r\n5. Report any issues or violations of the rules to an event organizer.\r\n6. Have fun! At the end of the day, we're hoping to offer a fun environment for others to learn more about cybersecurity. Be a good sport, congratulate other teams and players on their successes, and enjoy the CTF!\r\n\r\nThe flag:\r\n  * `vikeCTF{H4CK_71M3_W3_4CC3P7}`\r\n  * Submit your resumes for the sponsor, Mirai: https://forms.gle/SiwWV2TDzsSUxiht8\r\n  * Join the discord to stay informed and to communicate with organizers: https://vikesec.ca/vikectf-discord ",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 1,
+                "name": "CoC",
+                "points": 0,
+                "solves": 318
+            }
+        ],
+        "CLOUD": [
+            {
+                "category": "CLOUD",
+                "description": "Did vikings have dad jokes back in the day? Well, I know one thing for sure, these dad jokes are great!\r\n> https://s3.us-west-2.amazonaws.com/data.vikesec.ca/dadJokes.tar.gz",
+                "files": [],
+                "hints": [
+                    "It would be nice to see revision history somehow, maybe the flag was accidentally placed out in the open at some point..."
+                ],
+                "id": 5,
+                "name": "Docker Dad Jokes Find the Punchline",
+                "points": 100,
+                "solves": 98
+            },
+            {
+                "category": "CLOUD",
+                "description": "> Sponsored by [Mirai Security](https://miraisecurity.com/)\r\n\r\n<br>\r\n\r\nWhen we first launched Viking Axe Co, we utilized a legacy cloud static website to store our battle-axes. At the time, we believed that this was a secure solution, and that our axes were safe from harm. Unfortunately, we were wrong. Our website was hacked, and our precious battle-axes were stolen. It was a devastating blow, and it made us realize the importance of cybersecurity in the modern age.",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 13,
+                "name": "Eternal Cloud Conquest",
+                "points": 489,
+                "solves": 6
+            }
+        ],
+        "CRYPTOGRAPHY": [
+            {
+                "category": "CRYPTOGRAPHY",
+                "description": "I've been sitting here for days, listening to the radio and writing down dots and dashes. I'm starting to feel like one of those old-timey codebreakers, you know? To be honest, I have no idea what it all means! Think you can help me out?\r\n> https://s3.us-west-2.amazonaws.com/data.vikesec.ca/1N73rC3P710N.enc",
+                "files": [],
+                "hints": [
+                    "This guy was on the radio talking about CyberChef, ever heard of it?"
+                ],
+                "id": 2,
+                "name": "Cipher Cracking",
+                "points": 100,
+                "solves": 73
+            },
+            {
+                "category": "CRYPTOGRAPHY",
+                "description": "We vikings defend our villages and our precious flags with our lives. Our ramparts, shields & armour cannot be broken. We've built them with our own hands, and we'll laugh at your puny attemps to crack them.\r\n> https://s3.us-west-2.amazonaws.com/data.vikesec.ca/RampartsShieldsArmour.zip",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 9,
+                "name": "Ramparts, Shields & Armour",
+                "points": 436,
+                "solves": 13
+            }
+        ],
+        "MISC": [
+            {
+                "category": "MISC",
+                "description": "By Odin's beard, we've spotted some smoke signals between the longship and the village. It's rather cloudy today so you'll need good eyes. Go find the messages and figure out what they're saying! Quickly!\r\n> https://s3.us-west-2.amazonaws.com/data.vikesec.ca/SmokeOnTheHorizon.zip",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 11,
+                "name": "Smoke on the Horizon",
+                "points": 127,
+                "solves": 30
+            }
+        ],
+        "REVERSE": [
+            {
+                "category": "REVERSE",
+                "description": "Greetings, mere mortal! Are you ready to embark on a journey to unveil the flag and gain the wisdom of the floating Viking head? Harness the power of the oracle's gaze and use his words to guide you towards victory.\r\n> https://s3.us-west-2.amazonaws.com/data.vikesec.ca/FloatingVikingHead",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 10,
+                "name": "Floating Viking Head",
+                "points": 100,
+                "solves": 69
+            },
+            {
+                "category": "REVERSE",
+                "description": "Ah, the mighty Gunnar the Gatekeeper! He welcomes you to his land, but he is unsure if you are worthy to have the sacred flag. Discover the secret to unlock access to this most prized possesion.\r\n> https://s3.us-west-2.amazonaws.com/data.vikesec.ca/GunnarTheGatekeeper",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 12,
+                "name": "Gunnar the Gatekeeper",
+                "points": 436,
+                "solves": 13
+            },
+            {
+                "category": "REVERSE",
+                "description": "During our travels, we encouter a cute viking gopher! She keeps the flag safe and sound in her burrow. She won't let you see it, but she'll tell you if your guesses are right or wrong. It may seem like she hasn't given you much to work with, but you'll have to dig deep if you want to recover what has been lost.\r\n> https://s3.us-west-2.amazonaws.com/data.vikesec.ca/DigDeep",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 8,
+                "name": "Dig Deep",
+                "points": 499,
+                "solves": 3
+            }
+        ],
+        "WEB": [
+            {
+                "category": "WEB",
+                "description": "The flag used to fly high in the morning light, but the undead (bots) kept trying to steal it.\r\nNow we keep it in the vault of Asgaard itself! No undead fiends dare pass the test at the gates.",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 6,
+                "name": "The Vault of Asgaard",
+                "points": 456,
+                "solves": 11
+            }
+        ]
+    },
+    "title": "vikeCTF{2023}",
+    "url": "https://ctf.vikesec.ca"
+}
