@@ -1,0 +1,24 @@
+version: "3"
+
+services:
+  app:
+    build:
+      context: .
+    depends_on:
+      - db
+    environment:
+      MYSQL_ROOT_PASSWORD: testing
+      SERVER_PORT: 6942
+      JWT_SECRET: testing
+      FLAG: UMASS{test-flag}
+    ports:
+      - "6942:6942"
+
+  db:
+    image: mysql:8.0.32
+    restart: always
+    command: --init-file /tmp/db/init.sql
+    environment:
+      MYSQL_ROOT_PASSWORD: testing
+    volumes:
+      - "./init:/tmp/db"
