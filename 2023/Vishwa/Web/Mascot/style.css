@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+}
+
+.bx-lemon{
+    color: yellow;
+}
+
+.bx-popsicle{
+    color: violet;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.wrapper .container {
+    width: 320px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.wrapper .container button {
+    width: 100px;
+    height: 100px;
+    padding-top: 0.5rem;
+    flex: 0 0 100px;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: #2a2a2a;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.swal2-container.swal2-center > .swal2-popup {
+    background-color: #151515;
+}
+
+.swal2-success-circular-line-left,
+.swal2-success-circular-line-right,
+.swal2-success-fix{
+    background-color: transparent !important;
+}
+
+.swal2-title{
+    color: white !important;
+}
+
+.swal2-html-container{
+    color: lightgray !important;
+}

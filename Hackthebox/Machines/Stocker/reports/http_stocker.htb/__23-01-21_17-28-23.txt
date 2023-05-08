@@ -1,6 +1,0 @@
-# Dirsearch started Sat Jan 21 17:29:29 2023 as: /usr/bin/dirsearch -u http://stocker.htb/ -e* -w /home/banua/Desktop/Tools/SecLists/Discovery/Web-Content/directory-list-lowercase-2.3-medium.txt
-
-301   178B   http://stocker.htb/img    -> REDIRECTS TO: http://stocker.htb/img/
-301   178B   http://stocker.htb/css    -> REDIRECTS TO: http://stocker.htb/css/
-301   178B   http://stocker.htb/js    -> REDIRECTS TO: http://stocker.htb/js/
-301   178B   http://stocker.htb/fonts    -> REDIRECTS TO: http://stocker.htb/fonts/

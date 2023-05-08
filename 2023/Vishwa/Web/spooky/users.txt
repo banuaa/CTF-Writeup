@@ -1,0 +1,15 @@
+user
+guest
+root
+admin
+kali
+raspberry
+support
+fiona
+charles
+alice
+pinocchio
+shrekop
+dragon
+donkey
+wolf

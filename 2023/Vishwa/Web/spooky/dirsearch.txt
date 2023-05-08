@@ -1,0 +1,22 @@
+# Dirsearch started Sat Apr  1 15:55:04 2023 as: /usr/bin/dirsearch -u http://ch391378115186.ch.eng.run/ -e* --random-agent -o dirsearch.txt
+
+403   311B   http://ch391378115186.ch.eng.run/.ht_wsr.txt
+403   314B   http://ch391378115186.ch.eng.run/.htaccess.bak1
+403   314B   http://ch391378115186.ch.eng.run/.htaccess.orig
+403   316B   http://ch391378115186.ch.eng.run/.htaccess.sample
+403   314B   http://ch391378115186.ch.eng.run/.htaccess.save
+403   315B   http://ch391378115186.ch.eng.run/.htaccess_extra
+403   312B   http://ch391378115186.ch.eng.run/.htaccessBAK
+403   314B   http://ch391378115186.ch.eng.run/.htaccess_orig
+403   313B   http://ch391378115186.ch.eng.run/.htaccessOLD2
+403   304B   http://ch391378115186.ch.eng.run/.htm
+403   312B   http://ch391378115186.ch.eng.run/.htaccess_sc
+403   310B   http://ch391378115186.ch.eng.run/.htpasswds
+403   311B   http://ch391378115186.ch.eng.run/.httr-oauth
+403   314B   http://ch391378115186.ch.eng.run/.htpasswd_test
+403   312B   http://ch391378115186.ch.eng.run/.htaccessOLD
+403   305B   http://ch391378115186.ch.eng.run/.html
+200     0B   http://ch391378115186.ch.eng.run/login.php
+403   313B   http://ch391378115186.ch.eng.run/server-status
+403   314B   http://ch391378115186.ch.eng.run/server-status/
+200   351B   http://ch391378115186.ch.eng.run/sitemap.xml

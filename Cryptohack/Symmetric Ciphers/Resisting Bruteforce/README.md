@@ -1,2 +1,0 @@
-## Solver
-crypto{biclique}

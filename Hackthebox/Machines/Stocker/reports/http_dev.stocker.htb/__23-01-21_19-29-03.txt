@@ -1,5 +1,0 @@
-# Dirsearch started Sat Jan 21 19:31:57 2023 as: /usr/bin/dirsearch -u http://dev.stocker.htb/ -e*
-
-200     3KB  http://dev.stocker.htb/login
-200     3KB  http://dev.stocker.htb/login/
-301   179B   http://dev.stocker.htb/static    -> REDIRECTS TO: /static/
