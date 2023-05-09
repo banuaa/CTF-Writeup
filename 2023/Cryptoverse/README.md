@@ -7,16 +7,16 @@ Team: ACTFA
 ```
 Title                      Category             Points  Flag
 -------------------------- -------------------  ------- -----------------------------
-Warmup 1				   Crypto  				173		cvctf
-Warmup 2 				   Crypto 				121		cvctf
-Baby AES 				   Crypto 				222		cvctf
-Acceptance	               Pwn			        323     cvctf
-Simple Checkin			   Reverse				260		cvctf
-Micro Assembly			   Reverse				408		cvctf
-The Cyber Heist            Forensic             308     cvctf
-OJail					   Misc					371		cvctf
-Survey					   Misc					100		cvctf
-Sanity Check 			   Misc					100		cvctf
+Warmup 1                   Crypto               173     cvctf{base58_with_rot}
+Warmup 2                   Crypto               121     cvctf{funbifiddecoding}
+Baby AES                   Crypto               222     cvctf{b4by_AES_s1mpL3}
+Acceptance                 Pwn                  323     cvctf{Y34h_1_c4N_G0_n0w_tH4nK_y4u}
+Simple Checkin             Reverse              260     cvctf{i_apologize_for_such_a_long_string_in_this_checkin_challenge,but_it_might_be_a_good_time_to_learn_about_automating_this_process?You_might_need_to_do_it_because_here_is_a_painful_hex:32a16b3a7eef8de1263812.Enjoy(or_not)!}
+Micro Assembly             Reverse              408     cvctf{M1Cr@_c}
+The Cyber Heist            Forensic             308     Solved by teammates
+OJail                      Misc                 371     cvctf{J41L3d_OOOO-C4mL@@}
+Survey                     Misc                 100     cvctf{thx_4_playing_cvctf_and_hope_you_enjoy_it}
+Sanity Check               Misc                 100     cvctf{welcome_to_cvctf_2k23!}
 ```
 
 ## Crypto : Warmup 1 - 173 Points
@@ -756,6 +756,11 @@ for x in flag[::-1]:
 f += "}"
 print(f)
 
+```
+
+**Flag**
+```
+cvctf{M1Cr@_c}
 ```
 
 ## Forensic : The Cyber Heist - 308 Points
