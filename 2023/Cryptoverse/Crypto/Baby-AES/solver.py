@@ -17,9 +17,9 @@ def get_key(iv, ct):
             return key
 
 key = get_key(iv, ct)
-print(f"Got Key => {key}")
+print(f"[+] Found Key : {key}")
 
 cipher = AES.new(key, AES.MODE_CBC, iv)
 pt = unpad(cipher.decrypt(ct), AES.block_size)
 
-print(f"Got Flag => {pt.decode()}")
+print(f"[+] Flag : {pt.decode()}")

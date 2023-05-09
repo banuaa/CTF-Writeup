@@ -12,7 +12,7 @@ CTF Writeup solved by me and my team.
 
 | CTF                                           | Year  |
 |-----------------------------------------------|-------|
-| [Cryptoverse](2023/Cryptoverse/)              | 2023  |
+| [Cryptoverse](2023/Cryptoverse/README.md)     | 2023  |
 | [RitsecCTF](2023/RITSEC/)                     | 2023  |
 | [SpringForwardCTF](2023/SpringForward/)       | 2023  |
 | [UMassCTF](2023/UMass/)                       | 2023  |
