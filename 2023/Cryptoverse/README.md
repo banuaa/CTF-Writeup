@@ -168,12 +168,12 @@ cvctf{Y34h_1_c4N_G0_n0w_tH4nK_y4u}
 
 ## Reverse : Simple Checkin - 260 Points
 
-**Challenge**
+**Challenge**  
 Just a checkin challenge. Nothing special.
 
 [challenge](Reverse/Simple-Checkin/challenge)
 
-**Solution**
+**Solution**  
 Decompile file binary tersebut menggunakan ida64, dan lakukan disassemble fungsi main nya.
 
 ![](Reverse/Simple-Checkin/main.png)
@@ -650,19 +650,19 @@ for i in range(226):
     print(chr(flag), end="")
 ```
 
-**Flag**
+**Flag**  
 ```
 cvctf{i_apologize_for_such_a_long_string_in_this_checkin_challenge,but_it_might_be_a_good_time_to_learn_about_automating_this_process?You_might_need_to_do_it_because_here_is_a_painful_hex:32a16b3a7eef8de1263812.Enjoy(or_not)!}
 ```
 
 ## Reverse : Micro Assembly - 408 Points
 
-**Challenge**
+**Challenge**  
 A special message is computed out of this short piece of assembly. Wrap the message you got in cvctf{}.
 
 [file.asm](Reverse/Micro-Assembly/file.asm)
 
-**Solution**
+**Solution**  
 Dari file assembly tersebut, diketahui bahwa assembly tersebut hanya melakukan operasi aritmatika dasar serta left shift operator. Lakukan convert assembly tersebut ke python. Referensi dari [sini](https://www.cs.virginia.edu/~evans/cs216/guides/x86.html) dan [ini](https://cs61.seas.harvard.edu/site/2018/Asm1/) serta Googling.
 
 Berikut solver nya:
@@ -758,36 +758,36 @@ print(f)
 
 ```
 
-**Flag**
+**Flag**  
 ```
 cvctf{M1Cr@_c}
 ```
 
 ## Forensic : The Cyber Heist - 308 Points
 
-**Challenge**
+**Challenge**  
 A group of hackers has stolen a sensitive piece of data, and it's up to you to recover it. We only found this USB sniffer capture that was taken during the cyber attack. Can you uncover the message from the hackers left to us?
 
 Note: All alphabetical characters in the flag are lower-case.
 
-**Solution**
+**Solution**  
 Solved by teammates
 
-**Flag**
+**Flag**  
 ```
 Solved by teammates
 ```
 
 ## Misc : OJail - 371 Points
 
-**Challenge**
+**Challenge**  
 Heard people like OCaml, unfortunately Plaid CTF didn't put one. Here's a simple one for you to learn its syntax.
 
 ```
 nc 20.169.252.240 4201
 ```
 
-**Solution**
+**Solution**  
 Browsing OCaml command line for system, didapatkan informasi dari [stackoverflow](https://stackoverflow.com/questions/40271646/how-do-i-execute-a-command-using-a-local-program-in-ocaml) bahwa kita bisa menggunakan library Sys. 
 
 Tinggal jalankan : 
@@ -796,14 +796,14 @@ Sys.command "ls -la";;
 Sys.command "cat secret/flag*";;
 ```
 
-**Flag**
+**Flag**  
 ```
 cvctf{J41L3d_OOOO-C4mL@@}
 ```
 
 ## Misc : Survey - 100 Points
 
-**Challenge**
+**Challenge**  
 This is the survey for CVCTF 2023. Please take some time to let me know anything to improve.
 
 The survey is not eligible for tiebreak so please do it at your own pace! Any comment is greatly appreciated.
@@ -811,17 +811,17 @@ Remove all spaces in flag if you have them when copying.
 
 [survey](https://docs.google.com/forms/d/1CpVyJ5zVwEg_Yc8Vu-Goth2effeAMYU8W6lh-CLDt4M)
 
-**Solution**
+**Solution**  
 Tinggal isi survey
 
-**Flag**
+**Flag**  
 ```
 cvctf{thx_4_playing_cvctf_and_hope_you_enjoy_it}
 ```
 
 ## Misc : Sanity Check - 100 Points
 
-**Challenge**
+**Challenge**  
 Welcome to Cryptoverse! Hope you will enjoy your stay here.
 
 This CTF will have main focus on Cryptography and Reverse engineering, with a few challenges from other categories too.
@@ -830,10 +830,10 @@ The flag format is ```cvctf{printable_ascii}``` unless otherwise specified. Join
 
 Shout out to our sponsors Zellic and Burp Bounty!
 
-**Solution**
+**Solution**  
 Join Discord dan check channel #announcements
 
-**Flag**
+**Flag**  
 ```
 cvctf{welcome_to_cvctf_2k23!}
 ```
