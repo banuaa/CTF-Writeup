@@ -21,24 +21,24 @@ Sanity Check               Misc                 100     cvctf{welcome_to_cvctf_2
 
 ## Crypto : Warmup 1 - 173 Points
 
-**Challenge**
+**Challenge**  
 As a tradition, we have several warmup challenges to get you started!
 
 Decode the following ciphertext: ```GmvfHt8Kvq16282R6ej3o4A9Pp6MsN```
 
 Remember: [CyberChef](https://gchq.github.io/CyberChef/) is your friend. Another great cipher decoding tool is [Ciphey](https://github.com/Ciphey/Ciphey).
 
-**Solution**
+**Solution**  
 Decode menggunakan Ciphey, atau menggunakan CyberChef dengan formula ROT13 > From Base58
 
-**Flag**
+**Flag**  
 ```
 cvctf{base58_with_rot}
 ```
 
 ## Crypto : Warmup 2 - 121 Points
 
-**Challenge**
+**Challenge**  
 This cipher is invented by French cryptographer Felix Delastelle at the end of the 19th century.
 
 Ciphertext: ```SCCGDSNFTXCOJPETGMDNG``` 
@@ -47,22 +47,22 @@ Hint: ```CTFISGODABEHJKLMNPQRUVWXY```
 
 Convert flag to lowercase. Add { and } to make it a valid flag format. No underscore is needed.
 
-**Solution**
+**Solution**  
 Decode menggunakan [Bifid Decoder](https://www.dcode.fr/bifid-cipher) dengan encryption grid adalah Hint.
 
-**Flag**
+**Flag**  
 ```
 cvctf{funbifiddecoding}
 ```
 
 ## Crypto : Baby AES - 222 Points
 
-**Challenge**
+**Challenge**  
 Simple AES.
 
 [challenge.py](Crypto/Baby-AES/challenge.py)
 
-**Solution**
+**Solution**  
 Dari file challenge.py tersebut, diberikan iv dan juga ct yang merupakan hasil enkripsi flag dengan AES mode CBC. Perlu diketahui bahwa untuk melakukan dekripsi AES mode CBC diperlukan iv dan key, dimana setiap block dari key akan dilakukan XOR dengan iv seperti penjelasan gambar dibawah.
 
 ![](Crypto/Baby-AES/aes-cbc-decrypt.png)
@@ -109,21 +109,21 @@ pt = unpad(cipher.decrypt(ct), AES.block_size)
 print(f"[+] Flag : {pt.decode()}")
 ```
 
-**Flag**
+**Flag**  
 ```
 cvctf{b4by_AES_s1mpL3}
 ```
 
 ## Pwn : Acceptance - 323 Points
 
-**Challenge**
+**Challenge**  
 I want to go out but I need to ask my mom first. Help me guys!
 
 ```nc 20.169.252.240 4000```
 
 [acceptance](Pwn/Acceptance/acceptance)
 
-**Solution**
+**Solution**  
 Diketahui binary acceptance adalah ELF 64 bit. Lakukan decompile file binary tersebut menggunakan ida64. 
 
 ![](Pwn/Acceptance/main.png)
@@ -161,7 +161,7 @@ p.stream()
 p.close()
 ```
 
-**Flag**
+**Flag**  
 ```
 cvctf{Y34h_1_c4N_G0_n0w_tH4nK_y4u}
 ```
