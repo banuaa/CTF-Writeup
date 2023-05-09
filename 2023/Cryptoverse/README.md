@@ -13,6 +13,7 @@ Baby AES 				   Crypto 				222		cvctf
 Acceptance	               Pwn			        323     cvctf
 Simple Checkin			   Reverse				260		cvctf
 Micro Assembly			   Reverse				408		cvctf
+The Cyber Heist            Forensic             308     cvctf
 OJail					   Misc					371		cvctf
 Survey					   Misc					100		cvctf
 Sanity Check 			   Misc					100		cvctf
@@ -114,6 +115,8 @@ cvctf{b4by_AES_s1mpL3}
 ```
 
 ## Pwn : Acceptance - 323 Points
+
+**Challenge**
 I want to go out but I need to ask my mom first. Help me guys!
 
 ```nc 20.169.252.240 4000```
@@ -164,6 +167,8 @@ cvctf{Y34h_1_c4N_G0_n0w_tH4nK_y4u}
 ```
 
 ## Reverse : Simple Checkin - 260 Points
+
+**Challenge**
 Just a checkin challenge. Nothing special.
 
 [challenge](Reverse/Simple-Checkin/challenge)
@@ -651,6 +656,8 @@ cvctf{i_apologize_for_such_a_long_string_in_this_checkin_challenge,but_it_might_
 ```
 
 ## Reverse : Micro Assembly - 408 Points
+
+**Challenge**
 A special message is computed out of this short piece of assembly. Wrap the message you got in cvctf{}.
 
 [file.asm](Reverse/Micro-Assembly/file.asm)
@@ -751,6 +758,21 @@ print(f)
 
 ```
 
+## Forensic : The Cyber Heist - 308 Points
+
+**Challenge**
+A group of hackers has stolen a sensitive piece of data, and it's up to you to recover it. We only found this USB sniffer capture that was taken during the cyber attack. Can you uncover the message from the hackers left to us?
+
+Note: All alphabetical characters in the flag are lower-case.
+
+**Solution**
+Solved by teammates
+
+**Flag**
+```
+Solved by teammates
+```
+
 ## Misc : OJail - 371 Points
 
 **Challenge**
@@ -775,6 +797,8 @@ cvctf{J41L3d_OOOO-C4mL@@}
 ```
 
 ## Misc : Survey - 100 Points
+
+**Challenge**
 This is the survey for CVCTF 2023. Please take some time to let me know anything to improve.
 
 The survey is not eligible for tiebreak so please do it at your own pace! Any comment is greatly appreciated.
@@ -791,6 +815,8 @@ cvctf{thx_4_playing_cvctf_and_hope_you_enjoy_it}
 ```
 
 ## Misc : Sanity Check - 100 Points
+
+**Challenge**
 Welcome to Cryptoverse! Hope you will enjoy your stay here.
 
 This CTF will have main focus on Cryptography and Reverse engineering, with a few challenges from other categories too.
