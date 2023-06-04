@@ -1,0 +1,1 @@
+curl -XPOST "http://byuctf.xyz:40010/api/register" -H "Content-Type: application/json" --data '{"email":"tes@gmail.com","username":"byuctf","password":"iniadalahpassword","bitcoin_wallet":"0xABCF"}'

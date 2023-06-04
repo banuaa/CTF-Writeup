@@ -1,0 +1,25 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Fri May 26 21:05:16 2023
+Invocation: foremost nothing.png 
+Output directory: /home/banua/Desktop/CTF-Writeup/2023/TJCTF-2023/Forensic/nothing-to-see/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: nothing.png
+Start: Fri May 26 21:05:16 2023
+Length: 14 KB (14979 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000028.zip 	      228 B 	      14751 	 
+1:	00000000.png 	      14 KB 	          0 	  (560 x 450)
+Finish: Fri May 26 21:05:16 2023
+
+2 FILES EXTRACTED
+	
+zip:= 1
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Fri May 26 21:05:16 2023

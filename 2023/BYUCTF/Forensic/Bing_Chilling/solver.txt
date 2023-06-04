@@ -1,0 +1,3 @@
+Unzip *.odt
+grep -R "byu" .
+cat ./Basic/Project/NewMacros.xml
