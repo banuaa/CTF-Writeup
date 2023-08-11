@@ -1,0 +1,14 @@
+# Dirsearch started Sun Jun  4 00:48:14 2023 as: /usr/bin/dirsearch -u http://127.0.0.1:34313/
+
+301    46B   http://127.0.0.1:34313/%2e%2e//google.com    -> REDIRECTS TO: /google.com
+301    46B   http://127.0.0.1:34313/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd    -> REDIRECTS TO: /etc/passwd
+301    54B   http://127.0.0.1:34313/axis//happyaxis.jsp    -> REDIRECTS TO: /axis/happyaxis.jsp
+301    65B   http://127.0.0.1:34313/axis2//axis2-web/HappyAxis.jsp    -> REDIRECTS TO: /axis2/axis2-web/HappyAxis.jsp
+301    59B   http://127.0.0.1:34313/axis2-web//HappyAxis.jsp    -> REDIRECTS TO: /axis2-web/HappyAxis.jsp
+301    46B   http://127.0.0.1:34313/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd    -> REDIRECTS TO: /etc/passwd
+301    87B   http://127.0.0.1:34313/Citrix//AccessPlatform/auth/clientscripts/cookies.js    -> REDIRECTS TO: /Citrix/AccessPlatform/auth/clientscripts/cookies.js
+301    74B   http://127.0.0.1:34313/engine/classes/swfupload//swfupload.swf    -> REDIRECTS TO: /engine/classes/swfupload/swfupload.swf
+301    77B   http://127.0.0.1:34313/engine/classes/swfupload//swfupload_f9.swf    -> REDIRECTS TO: /engine/classes/swfupload/swfupload_f9.swf
+200     2B   http://127.0.0.1:34313/examples
+301    62B   http://127.0.0.1:34313/extjs/resources//charts.swf    -> REDIRECTS TO: /extjs/resources/charts.swf
+301    72B   http://127.0.0.1:34313/html/js/misc/swfupload//swfupload.swf    -> REDIRECTS TO: /html/js/misc/swfupload/swfupload.swf

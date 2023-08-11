@@ -1,0 +1,37 @@
+# Dirsearch started Mon Mar 13 18:36:24 2023 as: /usr/bin/dirsearch -u http://superpass.htb/ -e* --random-agent -o dirsearch.txt
+
+200     3KB  http://superpass.htb/account/login
+404   162B   http://superpass.htb/console.asp
+404   162B   http://superpass.htb/console.jsp
+404   162B   http://superpass.htb/console.php
+404   162B   http://superpass.htb/console
+404   564B   http://superpass.htb/console.action
+404   162B   http://superpass.htb/console.aspx
+404   564B   http://superpass.htb/console.do
+404   162B   http://superpass.htb/console.cgi
+404   564B   http://superpass.htb/console.html
+404   564B   http://superpass.htb/console.js
+404   162B   http://superpass.htb/console.tar.gz
+404   564B   http://superpass.htb/console/base/config.json
+404   564B   http://superpass.htb/console/
+404   564B   http://superpass.htb/console/j_security_check
+404   564B   http://superpass.htb/console/login/LoginForm.jsp
+404   564B   http://superpass.htb/console/payments/config.json
+404   564B   http://superpass.htb/console.htm
+302   249B   http://superpass.htb/download    -> REDIRECTS TO: /account/login?next=%2Fdownload
+301   178B   http://superpass.htb/static    -> REDIRECTS TO: http://superpass.htb/static/
+404   162B   http://superpass.htb/static.jsp
+404   564B   http://superpass.htb/static.php
+404   162B   http://superpass.htb/static.do
+404   162B   http://superpass.htb/static.asp
+404   564B   http://superpass.htb/static.aspx
+404   162B   http://superpass.htb/static.js
+404   162B   http://superpass.htb/static.cgi
+404   162B   http://superpass.htb/static.action
+404   564B   http://superpass.htb/static.tar.gz
+404   564B   http://superpass.htb/static.htm
+404   162B   http://superpass.htb/static.html
+404   564B   http://superpass.htb/static..
+404   162B   http://superpass.htb/static/api/swagger.yaml
+404   162B   http://superpass.htb/static/api/swagger.json
+404   564B   http://superpass.htb/static/dump.sql

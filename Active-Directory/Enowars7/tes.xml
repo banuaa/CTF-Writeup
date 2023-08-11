@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE replace [<!ENTITY ent SYSTEM "file:///service/grades/24838_a42f0d0f68ea86f0d2e773e5e6102727"> ]>
+<data>
+	<course>
+		<name>
+			BANUA
+		</name>
+		<description>
+			&ent;
+		</description>
+	</course>
+</data>

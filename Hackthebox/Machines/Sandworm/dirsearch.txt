@@ -1,0 +1,8 @@
+# Dirsearch started Tue Jun 20 16:31:10 2023 as: /usr/bin/dirsearch -u https://ssa.htb/ -e* -o dirsearch.txt
+
+200     5KB  https://ssa.htb/about
+302   227B   https://ssa.htb/admin    -> REDIRECTS TO: /login?next=%2Fadmin
+200     3KB  https://ssa.htb/contact
+200     9KB  https://ssa.htb/guide
+200     4KB  https://ssa.htb/login
+302   229B   https://ssa.htb/logout    -> REDIRECTS TO: /login?next=%2Flogout

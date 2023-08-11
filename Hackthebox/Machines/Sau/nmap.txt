@@ -1,0 +1,11 @@
+# Nmap 7.80 scan initiated Wed Jul 12 10:18:58 2023 as: nmap -p- --open -oN nmap.txt sau.htb
+Nmap scan report for sau.htb (10.10.11.224)
+Host is up (0.12s latency).
+Not shown: 37937 closed ports, 27595 filtered ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE
+22/tcp    open  ssh
+8101/tcp  open  ldoms-migr
+55555/tcp open  unknown
+
+# Nmap done at Wed Jul 12 10:19:56 2023 -- 1 IP address (1 host up) scanned in 59.02 seconds

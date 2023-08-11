@@ -1,0 +1,1 @@
+Copy ZeroWidth Space Code, Paste in Python3 Intepreter with "Here". And then replace \u200b to 0 and space to 1, then remove some first char

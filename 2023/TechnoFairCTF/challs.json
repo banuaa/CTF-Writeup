@@ -1,0 +1,172 @@
+{
+    "data": {
+        "Binary Exploitation": [
+            {
+                "category": "Binary Exploitation",
+                "description": "Aseng baru saja merilis sebuah program untuk menyimpan catatan. Tetapi, dengan skill tinggi yang dimilikinya dia menyadari bahwa terdapat kerentanan pada program yang dia buat. Baca selengkapnya...\r\n\r\nAuthor: Vaints",
+                "files": [
+                    "/files/63ab3f17f7c6704eef6dbc37559d8794/libc.so.6?token=eyJ1c2VyX2lkIjo3NCwidGVhbV9pZCI6MzMsImZpbGVfaWQiOjh9.ZKoUvQ.204uw9qdRLTV72rU-SGVajqX68s",
+                    "/files/f61b30ee05475f37d6a3ee6e2eff570c/chall?token=eyJ1c2VyX2lkIjo3NCwidGVhbV9pZCI6MzMsImZpbGVfaWQiOjl9.ZKoUvQ.qkwOiy759kFo09-QcSD49IT6t70"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 12,
+                "name": "Aseng's Note List",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Binary Exploitation",
+                "description": "Ever heard of ASAN? Now I introduce to you... FSAN!!\r\n\r\nAuthor: Vaints",
+                "files": [
+                    "/files/5cfc6e3c60330f900645da2e3098b033/release.zip?token=eyJ1c2VyX2lkIjo3NCwidGVhbV9pZCI6MzMsImZpbGVfaWQiOjEyfQ.ZKoUvQ.roygAzwsFu2HBBiqwc3wq3C-vQE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 18,
+                "name": "Sanitizer",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Cryptography": [
+            {
+                "category": "Cryptography",
+                "description": "Pengen Merch JKT tapi gada duit :( top-up in dong bang.\r\n\r\n\r\nAuthor: AnYujin",
+                "files": [
+                    "/files/e06d31e60c2d1f7a37bf7fe046432e7e/server.py?token=eyJ1c2VyX2lkIjo3NCwidGVhbV9pZCI6MzMsImZpbGVfaWQiOjEzfQ.ZKoUvQ.nMRa3mw-y1Zv8ZIFcU3VNTEUBpU"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 20,
+                "name": "Pengen Merch JKT \ud83d\ude22",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Cryptography",
+                "description": "tadi abis pesen udon, milih menu nya udon't need to lower your standard just because u're feeling lonely\ud83e\udd79\ud83d\ude14\ud83e\udef5\r\n\r\nAuthor: AnYujin",
+                "files": [
+                    "/files/31c4ebf1fff1aa416989a48e46da5a41/chall.py?token=eyJ1c2VyX2lkIjo3NCwidGVhbV9pZCI6MzMsImZpbGVfaWQiOjE2fQ.ZKoUvQ.dt6KjSzoKEvXP3YglM5KVlUEsTs",
+                    "/files/ad150c4c73b4cf35714b026c7b629e75/out?token=eyJ1c2VyX2lkIjo3NCwidGVhbV9pZCI6MzMsImZpbGVfaWQiOjE3fQ.ZKoUvQ.YI1ksWEyxlUkrleLpG3FRNIH4uI"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 25,
+                "name": "RSA Bwang",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Digital Forensics": [
+            {
+                "category": "Digital Forensics",
+                "description": "aldi taher di kirimkan penggemar suatu file melalui gmail, ketika file tersebut di buka beliau mendapatkan notif windows firewall yang mendeteksi adanya virus, dia shock dan dia ingin meminta bantuan apakah anda siap membantu beliau untuk mengecek isi file tersebut?\r\n\r\nAuthor : MuhammadR\r\nhttps://mega.nz/file/9WkQTJDD#NPKkNvQJe06k86fqMHO4y9NxDxqDPALHvrl78_eCApI ",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 17,
+                "name": "file pemberian fans",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Digital Forensics",
+                "description": "If i could fall into the space, do you think .. .. .. .. would pass me by\r\n\r\nChall: [GLHF!!](https://mega.nz/file/FugD0D5C#5cOLmXBgFxMW6hGojrn5BzDO4MehEmvWx60Ea9mGQHE)\r\n\r\nFormat Flag: TechnoFairCTF{random_string}\r\n\r\nAuthor: jsbach#7151",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 19,
+                "name": "space mono",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Misc": [
+            {
+                "category": "Misc",
+                "description": "TechnoFairCTF{Sateto_hajimeruka}",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 33,
+                "name": "Welcome",
+                "points": 323,
+                "solves": 9
+            },
+            {
+                "category": "Misc",
+                "description": "ooops sorry i forgot gitignore, i have secret file on storage.\r\nauthor: boyyz\r\nflag: TechnoFairCTF{}\r\nhttps://github.com/boyyz",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 16,
+                "name": "creds",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Reverse Engineering": [
+            {
+                "category": "Reverse Engineering",
+                "description": "\ud83d\udc69: lagi nyari apa?\r\n\r\n\ud83d\udc68: sup..\r\n\r\n\ud83d\udc69: sup apa? ayam? \r\n\r\n\ud83d\udc68: support system\r\n\r\nhttps://mega.nz/file/TxNW2JSb#iJfKJmIt2JgHbXMrP_fvaYO5lOBLKhMQDsAhKxMod6Q\r\n\r\nAuthor : AnYujin",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 23,
+                "name": "PM Gratis",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "mister falatehan mendapatkan file login form dari mas joni\r\nbantu mister agar bisa login pada file tsb\r\n\r\nlink chall : \r\nhttps://mega.nz/file/0uNFiL7b#DSSWvJHaf0IIO-LngJZ7QtJMIiA_aN_X7kA6WrU5QzA\r\n\r\nAuthor : rincember",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 21,
+                "name": "mencariPW",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Web Exploitation": [
+            {
+                "category": "Web Exploitation",
+                "description": "Pada suatu hari Andi ingin mengikuti turnamen PUBG MOBILE. Tapi dia bingung tidak dapat terverifikasi sebagai peserta.\r\nSebagai seorang hacker sejati mampukah kamu membantu Andi yang tengah kesulitan?\r\n\r\nhttp://103.152.242.197:8085\r\n\r\nAuthor : romy#2270",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 31,
+                "name": "Tryme",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Web Exploitation",
+                "description": "Aku baru saja membuat program Untuk  Jin sederhana berbasis web, Namun ada sebuah laporan tentang security Web tersebut. \r\n\r\nCobain program dan explore web nya, karena aku tidak tau bagaimana mengeceknya.\r\n\r\nhttp://103.152.242.197:29801\r\n\r\nAuthor: banz7850",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 27,
+                "name": "Jin App",
+                "points": 500,
+                "solves": 0
+            }
+        ]
+    },
+    "title": "TechnoFairCTF",
+    "url": "http://103.152.242.197:8000"
+}

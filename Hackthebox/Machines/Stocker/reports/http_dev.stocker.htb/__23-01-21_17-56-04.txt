@@ -1,0 +1,5 @@
+# Dirsearch started Sat Jan 21 17:58:09 2023 as: /usr/bin/dirsearch -u http://dev.stocker.htb/ -e* -w /home/banua/Desktop/Tools/SecLists/Discovery/Web-Content/directory-list-lowercase-2.3-medium.txt
+
+200     3KB  http://dev.stocker.htb/login
+301   179B   http://dev.stocker.htb/static    -> REDIRECTS TO: /static/
+302    48B   http://dev.stocker.htb/stock    -> REDIRECTS TO: /login?error=auth-required

@@ -1,0 +1,31 @@
+NSE: Loaded 45 scripts for scanning.
+Initiating Ping Scan at 18:13
+Scanning 10.10.11.195 [2 ports]
+Completed Ping Scan at 18:13, 0.54s elapsed (1 total hosts)
+Initiating Connect Scan at 18:13
+Scanning broscience.htb (10.10.11.195) [2 ports]
+Discovered open port 22/tcp on 10.10.11.195
+Discovered open port 80/tcp on 10.10.11.195
+Completed Connect Scan at 18:13, 0.68s elapsed (2 total ports)
+Initiating Service scan at 18:13
+Scanning 2 services on broscience.htb (10.10.11.195)
+Completed Service scan at 18:13, 7.15s elapsed (2 services on 1 host)
+NSE: Script scanning 10.10.11.195.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 18:13
+Completed NSE at 18:13, 3.49s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 18:13
+Completed NSE at 18:13, 3.27s elapsed
+Nmap scan report for broscience.htb (10.10.11.195)
+Host is up, received syn-ack (0.55s latency).
+Scanned at 2023-02-18 18:13:25 WIB for 15s
+
+PORT   STATE SERVICE REASON  VERSION
+22/tcp open  ssh     syn-ack OpenSSH 8.4p1 Debian 5+deb11u1 (protocol 2.0)
+80/tcp open  http    syn-ack Apache httpd 2.4.54
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 15.45 seconds

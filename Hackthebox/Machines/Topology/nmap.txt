@@ -1,0 +1,13 @@
+# Nmap 7.80 scan initiated Thu Jun 15 04:53:42 2023 as: nmap -vvv -p 22,80 -sV -oN nmap.txt 10.10.11.217
+Nmap scan report for topology.htb (10.10.11.217)
+Host is up, received syn-ack (0.33s latency).
+Scanned at 2023-06-15 04:53:43 WIB for 15s
+
+PORT   STATE SERVICE REASON  VERSION
+22/tcp open  ssh     syn-ack OpenSSH 8.2p1 Ubuntu 4ubuntu0.7 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    syn-ack Apache httpd 2.4.41 ((Ubuntu))
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Jun 15 04:53:58 2023 -- 1 IP address (1 host up) scanned in 16.01 seconds

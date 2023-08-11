@@ -1,0 +1,51 @@
+# Nmap 7.80 scan initiated Sat Jun 17 10:43:33 2023 as: nmap -vvv -p 22,80,3000 -sV -A --script=vuln -oN port.txt 10.10.11.213
+Pre-scan script results:
+| broadcast-avahi-dos: 
+|   Discovered hosts:
+|     224.0.0.251
+|   After NULL UDP avahi packet DoS (CVE-2011-1002).
+|_  Hosts are all up (not vulnerable).
+Nmap scan report for format.htb (10.10.11.213)
+Host is up, received syn-ack (0.32s latency).
+Scanned at 2023-06-17 10:44:09 WIB for 1283s
+
+PORT     STATE SERVICE REASON  VERSION
+22/tcp   open  ssh     syn-ack OpenSSH 8.4p1 Debian 5+deb11u1 (protocol 2.0)
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+80/tcp   open  http    syn-ack nginx 1.18.0
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-jsonp-detection: Couldn't find any JSONP endpoints.
+|_http-litespeed-sourcecode-download: Request with null byte did not work. This web server might not be vulnerable
+|_http-server-header: nginx/1.18.0
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+| http-vuln-cve2011-3192: 
+|   VULNERABLE:
+|   Apache byterange filter DoS
+|     State: VULNERABLE
+|     IDs:  BID:49303  CVE:CVE-2011-3192
+|       The Apache web server is vulnerable to a denial of service attack when numerous
+|       overlapping byte ranges are requested.
+|     Disclosure date: 2011-08-19
+|     References:
+|       https://www.tenable.com/plugins/nessus/55976
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3192
+|       https://www.securityfocus.com/bid/49303
+|_      https://seclists.org/fulldisclosure/2011/Aug/175
+|_http-wordpress-users: [Error] Wordpress installation was not found. We couldn't find wp-login.php
+3000/tcp open  http    syn-ack nginx 1.18.0
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-jsonp-detection: Couldn't find any JSONP endpoints.
+|_http-litespeed-sourcecode-download: Request with null byte did not work. This web server might not be vulnerable
+|_http-passwd: ERROR: Script execution failed (use -d to debug)
+|_http-server-header: nginx/1.18.0
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-wordpress-users: [Error] Wordpress installation was not found. We couldn't find wp-login.php
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jun 17 11:05:32 2023 -- 1 IP address (1 host up) scanned in 1318.82 seconds
